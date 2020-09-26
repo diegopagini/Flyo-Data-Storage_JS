@@ -1,0 +1,66 @@
+:root {
+  --gradient: inear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
+  --font: 'Raleway', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--very-dark-blue);
+  background-image: url(/images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  background-color: var(--dark-blue);
+  height: 25%;
+  width: 80%;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fylo-container {
+  align-self: flex-start;
+  margin-left: 12%;
+}
+
+.icon-container {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35%;
+  margin-left: 12%;
+}
+
+.img-container {
+  background-color: var(--very-dark-blue);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
