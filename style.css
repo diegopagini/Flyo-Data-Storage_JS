@@ -141,3 +141,48 @@ body {
   font-weight: 600;
   margin-right: 5px;
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/images/bg-desktop.png);
+    background-size: 100%;
+    background-position: 0 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    width: 440px;
+    margin-left: 10%;
+    margin-right: 2%;
+  }
+
+  .second {
+    width: 600px;
+    height: 20%;
+    margin-top: 50px;
+    margin-right: 10%;
+  }
+
+  .second h1 {
+    margin-right: 35%;
+    font-size: 1.2rem;
+  }
+
+  .left {
+    position: absolute;
+    top: 180px;
+    right: 450px;
+  }
+
+  .gbs {
+    margin-top: 10px;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+}
